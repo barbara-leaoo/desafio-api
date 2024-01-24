@@ -14,8 +14,8 @@ function exibirDados(dados) {
     const elemento = document.createElement('div')
     elemento.innerHTML = `
     <img src="${dados[0].flags.png}" alt="${dados[0].flags.alt}"/>
-    <p>${dados[0].capital}</p>
-    <p>${dados[0].languages.por}</p>
+    <p>${dados[0].capital} (Capital do País)</p>
+    <p>${dados[0].languages.por} (Idioma falado)</p>
     `
     container.append(elemento)
 
